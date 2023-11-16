@@ -7,8 +7,12 @@ const userRoutes = require('./routes/user');
 const smsRoutes = require('./routes/sms');
 
 dotenv.config();
-app.use(cors());
 app.use(express.json());
+app.use(cors({
+  origin: "aj-smoke-shop.vercel.app"
+
+}));
+
 
 mongoose.connect(process.env.MONGO, {
  
