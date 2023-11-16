@@ -1,0 +1,38 @@
+/* neon.css */
+.Contact-text h1 {
+    font-size: clamp(2rem, 8vw, 5rem); /* Responsive font size */
+    line-height: 1.2;
+    text-shadow:
+      0 0 1px #ffa500,
+      0 0 3px #ffa500,
+      0 0 6px #ffa500,
+      0 0 12px #ffa500,
+      0 0 18px #ff0000,
+      0 0 3px #ff8d00,
+      0 0 22px #ff0000;
+    color: #fff6a9;
+    text-align: center;
+    font-family: "Sacremento", cursive;
+    animation: blink 12s infinite;
+    margin-bottom: -9rem;
+    margin-top: 4rem;
+  }
+  
+  @keyframes blink {
+    20%, 24%, 55% {
+      color: #111;
+      text-shadow: none;
+    }
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow:
+        0 0 1px #ffa500,
+        0 0 3px #ffa500,
+        0 0 6px #ffa500,
+        0 0 12px #ffa500,
+        0 0 18px #ff0000,
+        0 0 3px #ff8d00,
+        0 0 22px #ff0000;
+      color: #fff6a9;
+    }
+  }
+

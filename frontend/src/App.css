@@ -1,0 +1,59 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Add additional styles as needed */
+
+
+/* Add additional styles as needed */
+
+/* Add additional styles as needed */
+
+/* Style the main scrollbar area */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff00f7, #04f9f7, #00ff22, #fff600, #ff002d, #ff00f7) !important;
+  border: 2px solid #000 !important;
+  border-radius: 10px !important;
+}
+
+
+/* Style the track (the non-draggable part) */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+
+
+/* styles.css */
+

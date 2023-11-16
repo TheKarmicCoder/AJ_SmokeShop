@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brand {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  /* Add margin to the icons for spacing */
+  .links .iconButton {
+    margin-right: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .toolbar {
+      justify-content: space-around;
+    }
+  
+    .brand {
+      display: none; /* Hide brand on smaller screens */
+    }
+  
+    .links {
+      width: 100%; /* Make links take full width */
+      justify-content: space-around;
+      margin-left: 15px
+    }
+  
+    .links .iconButton {
+      margin-right: 0; /* Remove margin for icons on smaller screens */
+    }
+  }
+  

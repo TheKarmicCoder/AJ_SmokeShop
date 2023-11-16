@@ -1,0 +1,53 @@
+/* neon.css */
+.products-text h1 {
+    font-size: clamp(2rem, 8vw, 5rem); /* Responsive font size */
+    line-height: 1.2;
+    text-shadow:
+      0 0 1px #ffa500,
+      0 0 3px #ffa500,
+      0 0 6px #ffa500,
+      0 0 12px #ffa500,
+      0 0 18px #ff0000,
+      0 0 3px #ff8d00,
+      0 0 22px #ff0000;
+    color: #fff6a9;
+    text-align: center;
+    font-family: "Sacremento", cursive;
+    animation: blink 12s infinite;
+    margin-bottom: -9rem;
+    margin-top: 4rem;
+  }
+  
+  @keyframes blink {
+    20%, 24%, 55% {
+      color: #111;
+      text-shadow: none;
+    }
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow:
+        0 0 1px #ffa500,
+        0 0 3px #ffa500,
+        0 0 6px #ffa500,
+        0 0 12px #ffa500,
+        0 0 18px #ff0000,
+        0 0 3px #ff8d00,
+        0 0 22px #ff0000;
+      color: #fff6a9;
+    }
+  }
+
+  .coming-soon {
+    color: white;
+    margin-left: 55rem;
+    margin-top: 20rem
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    h2
+     {
+      font-size: 2rem;
+      margin-left: -51.5rem; /* Center the text horizontally */
+      margin-top: 0; /* Adjust as needed */
+    }
+  }

@@ -1,0 +1,50 @@
+.smokey-text h3 {
+    font-size: 1em;
+    margin-top: 20rem;
+    color: white;
+    margin-left:  6rem;
+}
+.smokey-text h3::after {
+  content: ' ';
+  padding: 0 2rem; /* Adjust the spacing as needed */
+  white-space: pre;
+}
+
+.smokey-text span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2em; /* Adjust the font size to your preference */
+}
+
+.smokey-text span.active {
+  animation: smoke 2s linear forwards;
+  transform-origin: bottom;
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0) translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    opacity: 1;
+    pointer-events: none;
+  }
+  100% {
+    opacity: 0;
+    filter: blur(20px);
+    transform: translate(300px) translateY(0) rotate(720deg) scale(4);
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 5px; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 15rem
+  }
+}
