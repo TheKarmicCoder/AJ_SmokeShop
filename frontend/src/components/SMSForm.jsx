@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { TextField, Button, Checkbox, FormControlLabel } from '@mui/material';
+import { TextField, Button, Checkbox, FormControlLabel, Box } from '@mui/material';
 import "../scss/smsform.css"
 
 function SMSForm() {
@@ -94,6 +94,9 @@ function SMSForm() {
     <>
         
     <div className="container mx-auto p-4">
+    <Box sx={{color: "white", textAlign: 'center' }}>
+          <h2>Smoker's Lounge</h2>
+        </Box>
  
       <div className="form-section">
         <div className="form-box bg-white p-6 rounded-lg shadow-md rainbow-border">
@@ -124,11 +127,11 @@ function SMSForm() {
                   onChange={() => setTermsAgreed(!termsAgreed)}
                 />
               }
-              label="I agree to the terms of service"
+              label="I agree to these terms of service"
             />
 
             <Button type="submit" variant="contained" fullWidth>
-              Save and Send SMS
+               Send SMS
             </Button>
           </form>
         </div>

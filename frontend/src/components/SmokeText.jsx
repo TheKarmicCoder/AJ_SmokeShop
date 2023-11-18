@@ -18,7 +18,7 @@ function SmokeText() {
 
   return (
     <div className="smokey-text">
-      <h3>Sign up for Secret messages</h3>
+      <h3>MEMBERS ONLY Messaging</h3>
     </div>
   );
 }

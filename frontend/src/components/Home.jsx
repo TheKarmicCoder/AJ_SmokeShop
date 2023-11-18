@@ -22,9 +22,7 @@ function Home() {
           borderImage: 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1',
         }}
       >
-        <Box sx={{color: "white", textAlign: 'center' }}>
-          <h2>Smoker's Lounge</h2>
-        </Box>
+       
         <SMSForm />
       </Paper>
     </Container>
