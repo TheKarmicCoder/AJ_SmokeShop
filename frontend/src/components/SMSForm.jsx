@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { TextField, Button, Checkbox, FormControlLabel, Box } from '@mui/material';
+import { TextField, Button, Checkbox, FormControlLabel } from '@mui/material';
 import "../scss/smsform.css"
 
 function SMSForm() {
@@ -94,9 +94,9 @@ function SMSForm() {
     <>
         
     <div className="container mx-auto p-4">
-    <Box sx={{color: "white", textAlign: 'center' }}>
-          <h2>Smoker's Lounge</h2>
-        </Box>
+    
+          <h2 style={{color: "white", textAlign: 'center' }}>Smoker's Lounge</h2>
+        
  
       <div className="form-section">
         <div className="form-box bg-white p-6 rounded-lg shadow-md rainbow-border">
