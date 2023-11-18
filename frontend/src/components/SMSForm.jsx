@@ -95,7 +95,6 @@ function SMSForm() {
         
     <div className="container mx-auto p-4">
     
-          <h2 style={{color: "white", textAlign: 'center' }}>Smoker's Lounge</h2>
         
  
       <div className="form-section">
