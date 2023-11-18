@@ -1,9 +1,35 @@
-
-
+import  { useEffect } from 'react';
 import './App.css';
 import AppRoutes from './components/AppRoutes';
 
 function App() {
+  useEffect(() => {
+    const video = document.getElementById('background-video');
+
+    const handleInteraction = () => {
+      if (video) {
+        video.play().catch(error => {
+          // Handle play error if needed
+          console.error('Error playing video:', error);
+        });
+        video.removeEventListener('touchstart', handleInteraction);
+        video.removeEventListener('click', handleInteraction);
+      }
+    };
+
+    if (video) {
+      video.addEventListener('touchstart', handleInteraction);
+      video.addEventListener('click', handleInteraction);
+    }
+
+    return () => {
+      if (video) {
+        video.removeEventListener('touchstart', handleInteraction);
+        video.removeEventListener('click', handleInteraction);
+      }
+    };
+  }, []);
+
   return (
     <div className="App">
       <video autoPlay muted loop id="background-video" playsInline>
