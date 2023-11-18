@@ -2,7 +2,7 @@
     font-size: 1em;
     margin-top: 20rem;
     color: white;
-    margin-left:  6rem;
+    margin-left:  9rem;
 }
 .smokey-text h3::after {
   content: ' ';

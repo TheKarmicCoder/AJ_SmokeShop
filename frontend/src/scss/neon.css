@@ -14,8 +14,12 @@
   text-align: center;
   font-family: "Sacremento", cursive;
   animation: blink 12s infinite;
-  margin-bottom: -9rem;
-  margin-top: 4rem;
+  white-space: nowrap; /* Set to nowrap */
+  margin: 0; /* Reset margin to remove default margin */
+  padding: 0; /* Reset padding to remove default padding */
+  display: inline-block;
+  margin-left: -16rem;
+  margin-top: 10rem;
 }
 
 @keyframes blink {

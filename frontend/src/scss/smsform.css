@@ -1,54 +1,49 @@
 /* smsform.css */
 
 .container {
-    color: white;
-    
-    
+  color: white;
 }
+
 .form-box {
-    width: 100%;
-    max-width: 400px; /* Adjust the max-width as needed */
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .form-box label {
-    text-align: left; /* Align label text to the left */
-    width: 100%;
-    margin-bottom: 8px;
-  }
-  
-  .form-box input,
-  .form-box checkbox {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-  }
-  
-  .checkbox-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .checkbox-container label {
-    margin-left: 8px;
-  }
-  
-  button {
-    width: 40%;
-  }
-  
-  /* smsform.css */
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-box label {
+  text-align: left; /* Align label text to the left */
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.form-box input,
+.form-box checkbox {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 2rem; /* Adjust the margin-bottom for spacing */
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container label {
+  margin-left: 8px;
+}
+
+button {
+  width: 40%;
+}
 
 /* Transparent inputs */
 .transparent-input {
-    background: white !important; /* !important is used to override Material-UI styles */
-    
-}
- 
-label {
-    color: rgb(255, 255, 255);
+  background: white !important; /* !important is used to override Material-UI styles */
 }
 
+label {
+  color: rgb(255, 255, 255);
+}

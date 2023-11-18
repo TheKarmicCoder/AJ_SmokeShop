@@ -1,4 +1,3 @@
-/* App.css */
 body, html {
   margin: 0;
   padding: 0;
@@ -15,10 +14,8 @@ body, html {
   width: auto;
   height: auto;
   transform: translateX(-50%) translateY(-50%);
-  z-index: -1;
+  z-index: -2; /* Adjusted z-index */
 }
-
-
 
 .overlay {
   position: absolute;
@@ -27,12 +24,8 @@ body, html {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.1);
+  z-index: -1; /* Adjusted z-index */
 }
-
-/* Add additional styles as needed */
-
-
-/* Add additional styles as needed */
 
 /* Add additional styles as needed */
 
@@ -47,13 +40,11 @@ body, html {
   border-radius: 10px !important;
 }
 
-
 /* Style the track (the non-draggable part) */
 ::-webkit-scrollbar-track {
   background: #000;
 }
 
-
-
-/* styles.css */
-
+button {
+  z-index: 1; /* Adjusted z-index */
+}
