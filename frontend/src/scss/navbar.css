@@ -21,9 +21,10 @@
   }
   
   /* Media query for smaller screens */
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 321px) and (max-width: 480px) {
     .toolbar {
       justify-content: space-around;
+      margin-right: 20rem;
     }
   
     .brand {
@@ -33,11 +34,35 @@
     .links {
       width: 100%; /* Make links take full width */
       justify-content: space-around;
-      margin-left: -36.3rem;
+      margin-left: 21rem;
+      margin-bottom: 2rem
+    
     }
   
     .links .iconButton:not(:last-child) {
       margin-right: -30rem;
   }
   }
-  
+    /* Media query for smaller screens */
+    @media screen and (max-width: 320px) {
+      .toolbar {
+        justify-content: space-around;
+        margin-right: 20rem;
+      }
+    
+      .brand {
+        display: none; /* Hide brand on smaller screens */
+      }
+    
+      .links {
+        width: 100%; /* Make links take full width */
+        justify-content: space-around;
+        margin-left: 21rem;
+        margin-bottom: 10rem
+      
+      }
+    
+      .links .iconButton:not(:last-child) {
+        margin-right: -30rem;
+    }
+    }
