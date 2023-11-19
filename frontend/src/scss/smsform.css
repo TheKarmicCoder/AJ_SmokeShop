@@ -24,16 +24,16 @@
   width: 100%;
   padding: 8px;
   margin-bottom: 2rem; /* Adjust the margin-bottom for spacing */
+ 
 }
 
 .checkbox-container {
   display: flex;
   align-items: center;
+  
 }
 
-.checkbox-container label {
-  margin-left: 8px;
-}
+
 
 button {
   width: 40%;
@@ -47,3 +47,75 @@ button {
 label {
   color: rgb(255, 255, 255);
 }
+.check-box {
+  border: 2px solid white;
+}
+
+
+  /* Styles for screens up to 320px */
+  @media screen and (max-width: 320px) {
+   
+  }
+  
+  /* Styles for screens from 321px to 480px */
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    body {
+      font-size: 16px;
+      /* Other styles for screens between 321px and 480px */
+    }
+  
+    .your-element {
+      /* Adjusted styles for specific elements */
+    }
+  }
+  
+  /* Styles for screens from 481px to 768px */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 18px;
+      /* Other styles for screens between 481px and 768px */
+    }
+  
+    .your-element {
+      /* Adjusted styles for specific elements */
+    }
+  }
+  
+  /* Styles for screens from 769px to 1024px */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 20px;
+      /* Other styles for screens between 769px and 1024px */
+    }
+  
+    .your-element {
+      /* Adjusted styles for specific elements */
+    }
+  }
+  
+  /* Styles for screens from 1025px to 1200px */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+      font-size: 22px;
+      /* Other styles for screens between 1025px and 1200px */
+    }
+  
+    .your-element {
+      /* Adjusted styles for specific elements */
+    }
+  }
+  
+  /* Styles for screens from 1201px to 1920px */
+  @media screen and (min-width: 1201px) and (max-width: 1920px) {
+    body {
+      font-size: 24px;
+      /* Other styles for screens between 1201px and 1920px */
+    }
+  
+    .your-element {
+      /* Adjusted styles for specific elements */
+    }
+  }
+  
+  /* Add more media queries as needed */
+  

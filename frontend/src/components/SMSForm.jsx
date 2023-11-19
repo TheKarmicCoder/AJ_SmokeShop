@@ -124,6 +124,7 @@ function SMSForm() {
                 <Checkbox
                   checked={termsAgreed}
                   onChange={() => setTermsAgreed(!termsAgreed)}
+                  className="check-box"
                 />
               }
               label="I agree to these terms of service"

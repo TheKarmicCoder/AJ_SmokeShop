@@ -1,14 +1,41 @@
+/* Regular styles */
 .container {
   z-index: 5;
-  
 }
-/* Add this to your CSS file */
-/* Add this to your CSS file or in a style tag in your component */
-button {
-    width: 10%;
-    margin-top: 32rem;
 
-     /* Adjust the margin-top value as needed */
-   /* Set a high z-index value to ensure it's at the top */
+button {
+  width: 36%;
+  margin-left: 10rem;
+}
+
+.buttonContainer {
+  font-size: 14px;
+  margin-left: -5.5rem;
+}
+
+h2 {
+  margin-left: 0.5rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 320px) {
+  .buttonContainer {
+    margin-left: -5.5rem;
   }
-  
+
+  h2 {
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .buttonContainer {
+    margin-left: -6.6rem;
+  }
+
+  h2 {
+    margin-left: 0.5rem;
+  }
+}
+
+/* Add other media queries as needed */

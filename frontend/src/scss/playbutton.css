@@ -1,0 +1,76 @@
+.video-button .play {
+    z-index: 10; /* Adjusted z-index */
+    margin-left: 5rem;
+    margin-top: 5rem;
+   font-family: sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+   background-color: #000;
+   letter-spacing: 4px;
+   font-size: 1.2rem;
+   color: #03e9f4;
+   font-weight: bold;
+   transition: .5s;
+   overflow: hidden;
+   margin-right: 70px;
+   width: 15%
+  }
+  .video-button .play:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+                -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+  .video-button .play:first-child {
+    filter: hue-rotate(225deg);
+    animation: animate1 1s infinite;
+  }
+  .video-button .play:last-child {
+    filter: hue-rotate(90deg);
+  }
+
+  @keyframes animate1 {
+    0%{
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    /* Your styles for screens 320px and smaller go here */
+    .video-button .play {
+      margin-left: 6.5rem;
+      width: 40%;
+     
+    }
+  
+  }
+  /* Styles for screens from 321px to 480px */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .video-button .play {
+    margin-left: 7.5rem;
+    width: 40%;
+   
+  }
+}
+
+/* Styles for screens from 769px to 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video-button .play {
+    margin-left: 15rem;
+    width: 40%;
+   
+  }
+}
+@media screen and (min-width: 1024px) {
+  .video-button .play {
+    margin-left: 18.5rem;
+    width: 40%;
+   
+  }
+}

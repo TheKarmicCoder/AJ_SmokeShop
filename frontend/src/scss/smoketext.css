@@ -1,8 +1,10 @@
 .smokey-text h3 {
     font-size: 1em;
-    margin-top: 20rem;
+    margin-top: 2rem;
     color: white;
-    margin-left:  9rem;
+    margin-left:  6rem;
+    margin-top: 20rem;
+    margin-bottom: -18rem;
 }
 .smokey-text h3::after {
   content: ' ';
@@ -39,12 +41,69 @@
   }
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
+
+
+/* Styles for screens up to 320px */
+@media screen and (max-width: 320px) {
   .smokey-text h3 {
     font-size: 12px;
-    margin-left: 5px; /* Adjust the margin-left for mobile devices */
+    margin-left: 45px; /* Adjust the margin-left for mobile devices */
     
-    margin-top: 15rem
+    margin-top: 120px;
   }
 }
+
+/* Styles for screens from 321px to 480px */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 80px; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 120px;
+  }
+}
+
+
+/* Styles for screens from 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .neon-text h1 {
+    margin-right: -40px; /* Adjust font size as needed */
+    font-size: 35px; 
+    margin-bottom: -25rem;
+  }
+}
+
+/* Styles for screens from 769px to 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 12rem; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 120px;
+  }
+}
+
+/* Styles for screens from 1025px to 1200px */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 11.5rem; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 120px;
+  }
+}
+
+/* Styles for screens from 1201px to 1920px */
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+  body {
+    font-size: 24px;
+    /* Other styles for screens between 1201px and 1920px */
+  }
+
+  .your-element {
+    /* Adjusted styles for specific elements */
+  }
+}
+
+/* Add more media queries as needed */
+

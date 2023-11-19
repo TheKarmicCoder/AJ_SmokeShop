@@ -1,8 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: hidden;
+  min-height: 110vh; /* Adjusted min-height to add scroll room */
 }
 
 #background-video {
@@ -14,7 +13,7 @@ body, html {
   width: auto;
   height: auto;
   transform: translateX(-50%) translateY(-50%);
-  z-index: -2; /* Adjusted z-index */
+  z-index: -2;
 }
 
 .overlay {
@@ -22,16 +21,16 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 110%;
   background: rgba(0, 0, 0, 0.1);
-  z-index: -1; /* Adjusted z-index */
+  z-index: -1;
 }
 
 /* Add additional styles as needed */
 
 /* Style the main scrollbar area */
 ::-webkit-scrollbar {
-  width: 10px; /* Adjust the width as needed */
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -43,8 +42,4 @@ body, html {
 /* Style the track (the non-draggable part) */
 ::-webkit-scrollbar-track {
   background: #000;
-}
-
-button {
-  z-index: 1; /* Adjusted z-index */
 }

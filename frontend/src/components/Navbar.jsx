@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className="links">
           <IconButton className="iconButton" sx={{ margin: '-8px' }}>
-            <Link to="/home" style={{ color: 'white', textDecoration: 'none' }}>
+            <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
               <HomeIcon />
             </Link>
           </IconButton>

@@ -33,11 +33,11 @@
     .links {
       width: 100%; /* Make links take full width */
       justify-content: space-around;
-      margin-left: 15px
+      margin-left: -36.3rem;
     }
   
-    .links .iconButton {
-      margin-right: 0; /* Remove margin for icons on smaller screens */
-    }
+    .links .iconButton:not(:last-child) {
+      margin-right: -30rem;
+  }
   }
   
