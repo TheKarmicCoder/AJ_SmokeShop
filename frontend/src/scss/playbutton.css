@@ -44,7 +44,7 @@
   @media screen and (max-width: 320px) {
     /* Your styles for screens 320px and smaller go here */
     .video-button .play {
-      margin-left: 6.5rem;
+      margin-left: 5.5rem;
       width: 40%;
       margin-top: 2rem;
      
@@ -56,6 +56,8 @@
   .video-button .play {
     margin-left: 7.5rem;
     width: 40%;
+    margin-top: 0rem;
+    
    
   }
 }
@@ -63,14 +65,14 @@
 /* Styles for screens from 769px to 1024px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .video-button .play {
-    margin-left: 15rem;
+    margin-left: 11.4rem;
     width: 40%;
    
   }
 }
 @media screen and (min-width: 1024px) {
   .video-button .play {
-    margin-left: 18.5rem;
+    margin-left: 10.5rem;
     width: 40%;
    
   }

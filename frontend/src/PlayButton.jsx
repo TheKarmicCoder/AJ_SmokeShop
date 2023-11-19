@@ -15,7 +15,7 @@ function PlayButton() {
   return (
     <div className="video-button">
           <button className="play" onClick={handlePlayButtonClick}>
-            Play Video
+             HIT It
           </button>
 
           <video

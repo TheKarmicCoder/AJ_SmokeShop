@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import "../scss/home.css";
 import SmokeText from './SmokeText';
-
+import PlayButton from "../PlayButton";
 function Home() {
   
   const [showForm, setShowForm] = useState(false);
@@ -20,8 +20,9 @@ function Home() {
 
   return (
     <Container maxWidth="sm">
-     
+      
       <SmokeText />
+      
       <Paper
         elevation={3}
         sx={{
@@ -59,13 +60,15 @@ function Home() {
           <h2>Sign Up To Recieve Member Only Text</h2>
           <div className="buttonContainer">
           <button onClick={handleRevealFormClick} style={{ display: showForm ? 'none' : 'block' }}>
-            Reveal Form
+            Take A Hit First
           </button>
           </div>
         </Box>
+        
        
         {showForm && <SMSForm />}
       </Paper>
+      <PlayButton />
     </Container>
   );
 }

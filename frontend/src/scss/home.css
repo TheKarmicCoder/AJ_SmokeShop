@@ -30,7 +30,7 @@ h2 {
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .buttonContainer {
-    margin-left: -6.6rem;
+    margin-left: -7rem;
   }
 
   h2 {
