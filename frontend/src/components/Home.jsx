@@ -57,7 +57,7 @@ function Home() {
 
            
       }}>
-          <h2>Sign Up To Recieve Member Only Text</h2>
+          <h2>Sign Up For Member Only Text</h2>
           <div className="buttonContainer">
           <button onClick={handleRevealFormClick} style={{ display: showForm ? 'none' : 'block' }}>
             Take A Hit First
