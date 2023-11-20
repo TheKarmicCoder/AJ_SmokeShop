@@ -52,7 +52,7 @@
   
   }
   /* Styles for screens from 321px to 480px */
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 374px) {
   .video-button .play {
     margin-left: 7.5rem;
     width: 40%;
@@ -62,10 +62,29 @@
   }
 }
 
+@media screen and (min-width: 375px)  and (max-width: 375px){
+  .video-button .play {
+    margin-left: 6.5rem;
+    width: 40%;
+    margin-top: 0rem;
+    
+   
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 480px) {
+  .video-button .play {
+    margin-left: 7rem;
+    width: 40%;
+    margin-top: 0rem;
+    
+   
+  }
+}
 /* Styles for screens from 769px to 1024px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .video-button .play {
-    margin-left: 11.4rem;
+    margin-left: 10.5rem;
     width: 40%;
    
   }

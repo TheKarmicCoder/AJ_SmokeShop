@@ -45,7 +45,7 @@ function Home() {
           },
           '@media screen and (min-width: 768px) and (max-width: 1023px)': {
             width: '50%',
-            marginLeft: '8rem'
+            marginLeft: '7rem'
           },
           '@media screen and (min-width: 1024px)': {
             marginLeft: '7.2rem',

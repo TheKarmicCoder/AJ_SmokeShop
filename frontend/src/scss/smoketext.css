@@ -54,7 +54,7 @@
 }
 
 /* Styles for screens from 321px to 480px */
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 374px) {
   .smokey-text h3 {
     font-size: 12px;
     margin-left: 6rem; /* Adjust the margin-left for mobile devices */
@@ -63,7 +63,23 @@
   }
 }
 
+@media screen and (min-width: 375px)  and (max-width: 375px){
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 5rem; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 120px;
+  }
+}
 
+@media screen and (min-width: 376px) and (max-width: 480px) {
+  .smokey-text h3 {
+    font-size: 12px;
+    margin-left: 6rem; /* Adjust the margin-left for mobile devices */
+    
+    margin-top: 120px;
+  }
+}
 /* Styles for screens from 481px to 768px */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .neon-text h1 {
@@ -77,7 +93,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .smokey-text h3 {
     font-size: 12px;
-    margin-left: 12rem; /* Adjust the margin-left for mobile devices */
+    margin-left: 11.5rem; /* Adjust the margin-left for mobile devices */
     
     margin-top: 120px;
   }

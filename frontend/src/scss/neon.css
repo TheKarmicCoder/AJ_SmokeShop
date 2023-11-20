@@ -49,19 +49,38 @@
     /* Your styles for screens 320px and smaller go here */
     .neon-text h1 {
       margin-left: 1rem; /* Adjust font size as needed */
-      font-size: 20px; 
-      margin-bottom: -25rem;
-      margin-top: 6rem;
+      font-size: 20px;
+      
+
+     
     }
   
   }
 
 /* Styles for screens from 321px to 480px */
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 374px) {
   .neon-text h1 {
      /* Adjust font size as needed */
-    font-size: 20px; 
-    margin-left:  4.5rem;
+    font-size: 25px; 
+    margin-left:  1.7rem;
+    margin-bottom: -25rem;
+  }
+}
+
+@media screen and (min-width: 375px)  and (max-width: 375px){
+  .neon-text h1 {
+     /* Adjust font size as needed */
+    font-size: 25px; 
+    margin-left:  .6rem;
+    margin-bottom: -25rem;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 480px) {
+  .neon-text h1 {
+     /* Adjust font size as needed */
+    font-size: 25px; 
+    margin-left:  2.5rem;
     margin-bottom: -25rem;
   }
 }
@@ -78,8 +97,8 @@
 /* Styles for screens from 769px to 1024px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .neon-text h1 {
-    margin-left: 16rem; /* Adjust font size as needed */
-    font-size: 20px; 
+    margin-left: 9rem; /* Adjust font size as needed */
+    font-size: 35px; 
     margin-bottom: -25rem;
   }
 }
@@ -87,8 +106,8 @@
 /* Styles for screens from 1025px to 1200px */
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .neon-text h1 {
-    margin-left: 23.5rem; /* Adjust font size as needed */
-    font-size: 20px; 
+    margin-left: 15rem; /* Adjust font size as needed */
+    font-size: 40px; 
     margin-bottom: -25rem;
   }
 }
